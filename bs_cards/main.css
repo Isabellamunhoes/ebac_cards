@@ -47,6 +47,10 @@
     .card-body {
     padding: 20px;
     }
+    .card-title,
+    .card-text {
+        color: #ffff;
+    }
 
     .btn {
     border-radius: 30px;
@@ -69,7 +73,7 @@
     }
 
     .btn-secondary:hover {
-    background-color: #7b68ee;
+    background-color: #3e3280;
     }
 
     .btn-success {
@@ -78,7 +82,7 @@
     }
 
     .btn-success:hover {
-    background-color: #00ced1;
+    background-color: #2a5152;
     }
 
     @media (max-width: 576px) {

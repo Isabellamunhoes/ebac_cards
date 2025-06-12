@@ -1,0 +1,88 @@
+    body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+    }
+
+    h1, h5, .card-title {
+    font-weight: bold;
+    }
+
+    .carousel-inner img {
+    filter: brightness(0.7) contrast(1.1);
+    border-radius: 10px;
+    }
+
+    .carousel {
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+    .container {
+    margin-top: 30px;
+    }
+
+    .card {
+    background-color: #2b2b2b;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(255, 105, 180, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 30px rgba(255, 105, 180, 0.4);
+    }
+
+    .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+
+    .card-body {
+    padding: 20px;
+    }
+
+    .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    }
+
+    .btn-dark {
+    background-color: #ff69b4;
+    border: none;
+    }
+
+    .btn-dark:hover {
+    background-color: #ff1493;
+    }
+
+    .btn-secondary {
+    background-color: #9370db;
+    border: none;
+    }
+
+    .btn-secondary:hover {
+    background-color: #7b68ee;
+    }
+
+    .btn-success {
+    background-color: #20b2aa;
+    border: none;
+    }
+
+    .btn-success:hover {
+    background-color: #00ced1;
+    }
+
+    @media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+    }
